@@ -51,7 +51,7 @@ Seeking an entry-level SOC Analyst L1 opportunity where I can apply my cybersecu
 📫 Connect With Me
 
 - GitHub: https://github.com/riyazkhann2007
-- LinkedIn: Add your LinkedIn profile URL here
+- LinkedIn:https://www.linkedin.com/in/mohd-abdul-riyaz-khan-0121363ba?utm_source=share_via&utm_content=profile&utm_medium=member_android
 
 ---
 
