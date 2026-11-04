@@ -59,4 +59,32 @@ Tool: Gmail Show Original
 SPF: PASS
 DKIM: PASS
 DMARC: PASS
+## Email Header Investigation
 
+### Sample Details
+- Sender: Microsoft Learn
+- Domain: notifications.microsoft.com
+- Subject: Get started with Microsoft Skilling
+- Tool: Gmail Show Original
+
+### Authentication Results
+- SPF: PASS
+- DKIM: PASS
+- DMARC: PASS
+
+### Header Analysis
+- Sending IP: 130.248.181.168
+- Return-Path: bounce@notifications.microsoft.com
+- Email routing: Microsoft infrastructure to Google mail servers.
+
+### Initial Assessment
+The email passed SPF, DKIM and DMARC
+authentication checks.
+
+The sender domain appears consistent
+with Microsoft notification infrastructure.
+
+### Final Verdict
+Likely legitimate based on the available
+header evidence. Further URL and content
+inspection is required before final classification.
