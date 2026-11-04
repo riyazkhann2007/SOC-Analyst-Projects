@@ -44,6 +44,16 @@ Further investigation would be needed before classifying a real-world incident.
 - VirusTotal results were documented.
 
 ## Conclusion
-URL reputation analysis completed.
-Further investigation is required before
-classifying real-world threats.
+## Email Authentication Analysis
+
+Sample: Training email
+Tool: Gmail Show Original
+
+SPF: PASS
+DKIM: PASS
+DMARC: PASS
+
+Conclusion:
+All three authentication checks passed.
+Authentication does not guarantee an email
+is safe. Further investigation is required.
