@@ -106,9 +106,20 @@ with Microsoft notification infrastructure.
 ---
 ## Evidence Screenshots
 
-All investigation screenshots are available below:
-1. [Test 1 – Example URL Analysis](evidence/Screenshot_2026-11-04-17-27-38-445_com.miui.gallery-edit.jpg)
-2. [Test 2 – Controlled URL Threat Detection](evidence/Screenshot_2026-11-04-17-09-04-352_com.android.chrome.jpg)
-3. [Test 3 – Microsoft Learn URL Analysis](evidenceScreenshot_2026-11-04-17-09-04-352_com.android.chrome.jpg)
-4. [Email Authentication – SPF, DKIM and DMARC](evidence/)
+Evidence Screenshots
 
+VirusTotal URL Investigation
+
+1. "Test 1 – Example URL Analysis" (https://github.com/riyazkhann2007/SOC-Analyst-Projects/blob/main/01-Phishing-Investigation%2Fevidence%2FScreenshot_2026-11-04-21-05-54-000_com.miui.gallery.jpg)
+
+2. "Test 2 – Controlled URL Threat Detection" (https://github.com/riyazkhann2007/SOC-Analyst-Projects/blob/main/01-Phishing-Investigation%2Fevidence%2FScreenshot_2026-11-04-20-03-28-386_com.android.chrome-edit.jpg)
+
+3. "Test 3 – Microsoft Learn URL Analysis" (https://github.com/riyazkhann2007/SOC-Analyst-Projects/blob/main/01-Phishing-Investigation%2Fevidence%2FIMG_20261104_200517.jpg)
+
+Email Authentication Analysis
+
+4. "SPF Verification" (https://github.com/riyazkhann2007/SOC-Analyst-Projects/blob/main/01-Phishing-Investigation%2Fevidence%2FScreenshot_2026-11-04-16-08-40-356_com.android.chrome.jpg)
+
+5. "DMARC Verification" (https://github.com/riyazkhann2007/SOC-Analyst-Projects/blob/main/01-Phishing-Investigation%2Fevidence%2FScreenshot_2026-11-04-16-10-06-945_com.android.chrome.jpg)
+
+6. "DKIM Verification" (https://github.com/riyazkhann2007/SOC-Analyst-Projects/blob/main/01-Phishing-Investigation%2Fevidence%2FScreenshot_2026-11-04-16-11-48-494_com.android.chrome.jpg)
