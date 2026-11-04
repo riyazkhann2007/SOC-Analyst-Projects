@@ -36,7 +36,7 @@ Findings:
 Conclusion:
 Security vendors flagged this test URL.
 It is a controlled security testing site.
-Further investigation would be needed before classifying a real-world investigate
+Further investigation would be needed before classifying a real-world incident 
 ## Findings
 - Two URLs investigated.
 - One URL had zero vendor detections.
