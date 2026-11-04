@@ -23,7 +23,6 @@ Conclusion:
 No security vendors flagged the URL
 as malicious in this scan.
 ## Test 2: URL Threat Detection
-## Test 2: URL Threat Detection
 
 URL: https://testsafebrowsing.appspot.com/
 Tool: VirusTotal
@@ -39,7 +38,12 @@ Security vendors flagged this test URL.
 It is a controlled security testing site.
 Further investigation would be needed before classifying a real-world incident.
 ## Findings
-To be updated after analysis.
+- Two URLs investigated.
+- One URL had zero vendor detections.
+- The test URL had malicious and suspicious flags.
+- VirusTotal results were documented.
 
 ## Conclusion
-To be completed after investigation.
+URL reputation analysis completed.
+Further investigation is required before
+classifying real-world threats.
