@@ -44,6 +44,13 @@ Further investigation would be needed before classifying a real-world incident.
 - VirusTotal results were documented.
 
 ## Conclusion
+Conclusion:
+URL reputation analysis completed.
+Two URLs were investigated using VirusTotal.
+One URL had zero detections, while the
+controlled testing URL triggered suspicious
+and malicious vendor flags.
+Further inve
 ## Email Authentication Analysis
 
 Sample: Training email
@@ -53,11 +60,3 @@ SPF: PASS
 DKIM: PASS
 DMARC: PASS
 
-Conclusion:
-URL reputation analysis completed.
-Two URLs were investigated using VirusTotal.
-One URL had zero detections, while the
-controlled testing URL triggered suspicious
-and malicious vendor flags.
-Further investigation is required before
-classifying real-world threats.
