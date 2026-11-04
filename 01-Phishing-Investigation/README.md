@@ -54,6 +54,10 @@ DKIM: PASS
 DMARC: PASS
 
 Conclusion:
-All three authentication checks passed.
-Authentication does not guarantee an email
-is safe. Further investigation is required.
+URL reputation analysis completed.
+Two URLs were investigated using VirusTotal.
+One URL had zero detections, while the
+controlled testing URL triggered suspicious
+and malicious vendor flags.
+Further investigation is required before
+classifying real-world threats.
