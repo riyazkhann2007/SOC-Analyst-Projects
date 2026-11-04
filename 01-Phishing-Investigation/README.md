@@ -32,7 +32,6 @@ Findings:
 - alphaMountain.ai: Suspicious
 - Gridinsoft: Suspicious
 - Other visible vendors: Clean
-- Other visible vendors: Clean
 
 Note: This is a controlled security testing URL, not evidence of a real-world malicious website.
 ## Test 3: Email URL Investigation
