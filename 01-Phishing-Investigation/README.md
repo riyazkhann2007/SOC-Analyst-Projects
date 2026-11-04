@@ -32,7 +32,23 @@ Findings:
 - alphaMountain.ai: Suspicious
 - Gridinsoft: Suspicious
 - Other visible vendors: Clean
+r ## Test 3: Email URL Investigation, add:
+### VirusTotal Analysis
 
+- URL: https://learn.microsoft.com/en-gb/training/?wt.mc_id=rmskilling_learn_welcome_email_gdc
+- Domain: learn.microsoft.com
+- Protocol: HTTPS
+- HTTP Status: 200
+- Content Type: text/html
+- Visible Security Vendor Results: Clean
+
+### Initial Assessment
+
+The URL received clean results from the security vendors visible in the VirusTotal report. The website responded successfully with HTTP status 200.
+
+### Verdict
+
+No suspicious activity was identified in the available VirusTotal results. The URL appears legitimate based on the available evidence, but a clean scan alone cannot guarantee safety.
 Conclusion:
 Security vendors flagged this test URL.
 It is a controlled security testing site.
