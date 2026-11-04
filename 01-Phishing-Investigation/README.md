@@ -104,7 +104,6 @@ with Microsoft notification infrastructure.
 
 ### Final Verdict
 ---
-
 ## Evidence Screenshots
 
 All investigation screenshots are available below:
@@ -112,3 +111,4 @@ All investigation screenshots are available below:
 2. [Test 2 – Controlled URL Threat Detection](evidence/Screenshot_2026-11-04-17-09-04-352_com.android.chrome.jpg)
 3. [Test 3 – Microsoft Learn URL Analysis](evidenceScreenshot_2026-11-04-17-09-04-352_com.android.chrome.jpg)
 4. [Email Authentication – SPF, DKIM and DMARC](evidence/)
+
