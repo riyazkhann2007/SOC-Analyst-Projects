@@ -110,5 +110,5 @@ with Microsoft notification infrastructure.
 All investigation screenshots are available below:
 1. [Test 1 – Example URL Analysis](evidence/Screenshot_2026-11-04-17-27-38-445_com.miui.gallery-edit.jpg)
 2. [Test 2 – Controlled URL Threat Detection](evidence/Screenshot_2026-11-04-17-09-04-352_com.android.chrome.jpg)
-3. [Test 3 – Microsoft Learn URL Analysis](evidence/Screenshot_2026-11-04-17-09-04-352_com.android.chrome.jpg)
+3. [Test 3 – Microsoft Learn URL Analysis](evidenceScreenshot_2026-11-04-17-09-04-352_com.android.chrome.jpg)
 4. [Email Authentication – SPF, DKIM and DMARC](evidence/)
