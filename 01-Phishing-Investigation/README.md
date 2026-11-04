@@ -35,7 +35,7 @@ Findings:
 - Other visible vendors: Clean
 
 Note: This is a controlled security testing URL, not evidence of a real-world malicious website.
-r ## Test 3: Email URL Investigation
+## Test 3: Email URL Investigation
 ### VirusTotal Analysis
 
 - URL: https://learn.microsoft.com/en-gb/training/?wt.mc_id=rmskilling_learn_welcome_email_gdc
