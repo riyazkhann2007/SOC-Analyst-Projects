@@ -36,7 +36,7 @@ Findings:
 Conclusion:
 Security vendors flagged this test URL.
 It is a controlled security testing site.
-Further investigation would be needed before classifying a real-world incident.
+Further investigation would be needed before classifying a real-world investigate
 ## Findings
 - Two URLs investigated.
 - One URL had zero vendor detections.
@@ -50,7 +50,7 @@ Two URLs were investigated using VirusTotal.
 One URL had zero detections, while the
 controlled testing URL triggered suspicious
 and malicious vendor flags.
-Further inve
+Further investigation is required before classifying real-world threats.
 ## Email Authentication Analysis
 
 Sample: Training email
