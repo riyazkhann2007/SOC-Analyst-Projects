@@ -1,8 +1,9 @@
 Windows Event Log Investigation | SOC Project
 
-"SOC" (https://img.shields.io/badge/Domain-Cybersecurity-blue)
-"Project" (https://img.shields.io/badge/Project-Windows%20Log%20Analysis-green)
-"Status" (https://img.shields.io/badge/Status-Educational-orange)
+"SOC"
+![Domain](https://img.shields.io/badge/Domain-Cybersecurity-blue)
+![Project](https://img.shields.io/badge/Project-Windows%20Log%20Analysis-green)
+![Status](https://img.shields.io/badge/Status-Educational-orange)
 
 1. Project Overview
 
