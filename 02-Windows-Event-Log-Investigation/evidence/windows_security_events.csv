@@ -1,0 +1,11 @@
+Timestamp,EventID,Username,SourceIP,LogonType,ProcessName,ParentProcess,Description
+2026-11-05 09:00:00,4624,riyaz,192.168.1.10,2,,,Successful interactive logon
+2026-11-05 09:05:00,4625,admin,203.0.113.50,3,,,Failed network logon
+2026-11-05 09:05:30,4625,admin,203.0.113.50,3,,,Failed network logon
+2026-11-05 09:06:00,4625,admin,203.0.113.50,3,,,Failed network logon
+2026-11-05 09:06:30,4625,admin,203.0.113.50,3,,,Failed network logon
+2026-11-05 09:07:00,4624,admin,203.0.113.50,3,,,Successful network logon
+2026-11-05 09:08:00,4672,admin,,,,,Special privileges assigned
+2026-11-05 09:10:00,4688,,, ,cmd.exe,explorer.exe,New process created
+2026-11-05 09:11:00,4688,,,,powershell.exe,cmd.exe,New process created
+2026-11-05 09:15:00,4624,riyaz,192.168.1.10,2,,,Successful interactive logon
