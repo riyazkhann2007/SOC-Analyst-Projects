@@ -23,19 +23,31 @@ I enjoy investigating security events, analyzing evidence, learning security too
 
 🚨 Hands-on SOC Projects
 
-01. Phishing Email Investigation
+## 🛡️ SOC Projects
 
-Project: Investigating suspicious emails and examining email authentication evidence.
+### 1. Phishing Email Investigation
+**Focus:** Email Security | Phishing Analysis | URL Reputation
 
-Areas Covered:
+- Analysed email headers using SPF, DKIM and DMARC.
+- Investigated URL reputation using VirusTotal.
+- Reviewed suspicious links and documented findings.
+- Prepared an investigation report with supporting evidence.
 
-- Phishing email investigation
-- Email header analysis
-- DKIM authentication examination
-- Evidence collection and documentation
-- Security investigation workflow
+🔗 [View Project 1 – Phishing Email Investigation](./01-Phishing-Investigation/)
 
-"🔗 View Project" (./01-Phishing-Investigation/)
+### 2. Windows Event Log Investigation
+**Focus:** Windows Security Logs | Logon Analysis | Threat Detection
+
+- Analysed Windows Security Event IDs 4624, 4625, 4672 and 4688.
+- Investigated repeated failed logon attempts.
+- Correlated failed and successful logons.
+- Reviewed privilege assignment and process creation events.
+- Created an incident timeline and MITRE ATT&CK mapping.
+- Documented investigation findings and recommendations.
+
+**Dataset:** Simulated Windows event logs for educational SOC investigation practice.
+
+🔗 [View Project 2 – Windows Event Log Investigation](./02-Windows-Event-Log-Investigation/)
 
 🎯 Career Objective
 
