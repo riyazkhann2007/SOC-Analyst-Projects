@@ -47,4 +47,4 @@ In Progress — Sample event analysis and documentation pending.
 
 7. Disclaimer
 
-This is an educational cybersecurity portfolio project. Sample and simulated events are used to demonstrate SOC investigation techniques.
+This is an educational cybersecurity portfolio project. Sample and simulated events are used to demonstrate SOC investigation techniques
