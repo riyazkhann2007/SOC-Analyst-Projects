@@ -1,43 +1,64 @@
 Indicators of Compromise (IOC) Table
 
 Case ID: SOC-PHISH-002
-Investigation Type: Malicious URL Threat Intelligence Analysis
 
-1. Identified Indicators
+Investigation: Malicious URL Threat Intelligence Analysis
 
-IOC Type| Indicator| Source| Assessment
-URL| "hxxps://adcentral[.]com[.]mx/administrator/1new[.]png"| URLhaus, VirusTotal| Malicious
-Domain| "adcentral[.]com[.]mx"| URLhaus, VirusTotal| Associated with reported malicious URL
-IPv4 Address| "192[.]254[.]185[.]223"| VirusTotal| Observed serving IP
-MD5| "96883e2f6d73136f0d181c0ec949a446"| VirusTotal| Favicon hash only
-dHash| "645474aa6ac6c948"| VirusTotal| Favicon perceptual hash only
+1. URL Indicator
 
-2. Reputation Evidence
+- Type: Malicious URL
+- Value: "hxxps://adcentral[.]com[.]mx/administrator/1new[.]png"
+- Source: URLhaus and VirusTotal
+- Assessment: Reported malicious
+
+2. Domain Indicator
+
+- Type: Domain
+- Value: "adcentral[.]com[.]mx"
+- Source: URLhaus and VirusTotal
+- Assessment: Associated with the reported malicious URL
+
+3. IP Address Indicator
+
+- Type: IPv4 Address
+- Value: "192[.]254[.]185[.]223"
+- Source: VirusTotal
+- Assessment: Observed serving IP during URL analysis
+
+4. Hash Indicators
+
+Favicon MD5:
+"96883e2f6d73136f0d181c0ec949a446"
+
+Favicon dHash:
+"645474aa6ac6c948"
+
+Important: These hashes identify the favicon, not the suspicious PNG payload. The payload SHA-256 hash was not obtained.
+
+5. Threat Intelligence Findings
 
 - URLhaus listed the URL as an online malware URL.
 - VirusTotal reported 15 detections out of 94 security vendors.
-- VirusTotal displayed malicious and suspicious classifications.
-- The URL returned HTTP status 200 during the recorded analysis.
-- VirusTotal associated the URL's crowdsourced context with AgentTesla activity.
+- Some vendors classified the URL as malicious, while others marked it suspicious or clean.
+- VirusTotal displayed crowdsourced context associating the URL with AgentTesla activity.
+- HTTP response status was 200.
+- Content type was image/png.
 
-3. Important Limitations
+6. Recommended SOC Response
 
-- The MD5 and dHash values above belong to the favicon, not the PNG payload.
-- No SHA-256 hash of the downloaded PNG payload was obtained.
-- The actual payload contents and execution behaviour were not verified.
-- The serving IP is an observed infrastructure indicator, not proof that the entire IP address is malicious.
-- No endpoint compromise has been confirmed.
+1. Block the URL according to organisational security policy.
+2. Search DNS, proxy and endpoint logs for matching indicators.
+3. Check whether users accessed the URL.
+4. Investigate whether the file was downloaded or executed.
+5. Escalate any confirmed endpoint compromise to the incident response team.
+6. Preserve the investigation evidence.
 
-4. Recommended SOC Actions
-
-1. Block the URL and assess whether domain-level blocking is appropriate.
-2. Search DNS, proxy and endpoint telemetry for matching indicators.
-3. Identify whether the URL was accessed or a file was downloaded.
-4. Investigate any related process execution or endpoint alerts.
-5. Escalate if evidence of compromise is discovered.
-
-5. Investigation Verdict
+7. Final Assessment
 
 Verdict: Malicious URL — escalate for further investigation.
 
-Confidence: High confidence in the malicious reputation of the URL based on URLhaus and VirusTotal findings. Payload identity and endpoint impact remain unconfirmed.
+Confidence: High confidence in the malicious reputation of the URL based on URLhaus and VirusTotal evidence.
+
+Limitations: The actual payload was not downloaded or analysed. No endpoint compromise or malware execution has been confirmed.
+
+Investigation Type: Public threat intelligence analysis for educational SOC practice.
