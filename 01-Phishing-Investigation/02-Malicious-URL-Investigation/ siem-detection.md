@@ -43,3 +43,27 @@ This is an example Splunk SPL query for educational purposes. It has not been ex
 Expected SOC Outcome
 
 The query should identify matching proxy events and provide context for further investigation.
+## Alert Investigation
+
+### Alert Name
+Known Malicious URL Access
+
+### Severity
+High
+
+### Investigation Steps
+1. Identify the source IP address.
+2. Identify the affected username and endpoint.
+3. Verify the destination URL against threat intelligence.
+4. Check DNS and proxy logs for related activity.
+5. Check whether a file was downloaded.
+6. Review endpoint security alerts.
+
+### Recommended SOC Response
+- Block the malicious URL and domain.
+- Isolate the endpoint if compromise is suspected.
+- Run an endpoint security scan.
+- Escalate confirmed suspicious activity to the incident response team.
+
+### Note
+This is a simulated SIEM detection scenario. No live Splunk environment or production logs were used.
